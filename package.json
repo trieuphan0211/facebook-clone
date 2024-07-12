@@ -9,17 +9,26 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@ant-design/cssinjs": "^1.21.0",
     "@ant-design/nextjs-registry": "^1.0.0",
     "@auth/prisma-adapter": "^2.4.1",
+    "@formatjs/intl-localematcher": "^0.5.4",
     "@prisma/client": "^5.16.1",
     "antd": "^5.19.1",
+    "i18next": "^23.11.5",
+    "i18next-browser-languagedetector": "^8.0.0",
+    "i18next-resources-to-backend": "^1.2.1",
+    "negotiator": "^0.6.3",
     "next": "14.2.4",
     "next-auth": "^5.0.0-beta.19",
     "nodemailer": "^6.9.14",
     "react": "^18",
-    "react-dom": "^18"
+    "react-cookie": "^7.1.4",
+    "react-dom": "^18",
+    "react-i18next": "^14.1.2"
   },
   "devDependencies": {
+    "@types/negotiator": "^0.6.3",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
